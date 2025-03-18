@@ -1,11 +1,19 @@
-The repository contains scripts for irrigation detection
+# Smallholder Irrigation Detection
 
-The order of the scripts are:
+## Repository Structure
 
-1- Imagery upload
+The repository contains scripts and files for small holder irrigation detection across sub-Saharan Africa
 
-2- Smooth inference imagery
-
-3- Irrigation detection inference
-
-4- Utils
+```
+Irrigation-Detection/
+├── data-collection-polygons/                     # Folder for input files
+│   └── ......                   
+├── Interactive_EVI_Extraction.js                 
+├── scripts/
+    ├── s2_imagery_upload.ipynb                   # Download S2 EVI stack
+    ├── clean_labelled_data.ipynb                 # Cluster cleaning script
+    ├── smooth_inference_imagery.ipynb            # Svatisky Golay Filter for smoothing 
+    ├── irrigation_detection_inference.ipynb      # Run irrigation predictions on EVI stack
+    └── utils.ipynb                               # Utility functions
+└── Sahel_labeling_v4.pdf
+```
