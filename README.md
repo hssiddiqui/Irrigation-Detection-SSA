@@ -8,8 +8,9 @@ The repository contains scripts and files for small holder irrigation detection 
 Irrigation-Detection/
 ├── data-collection-polygons/                     # Folder for input files
 │   └── ......                   
-├── Interactive_EVI_Extraction.js                 
-├── scripts/
+├── GEE_scripts/                                  
+│   └── Interactive_EVI_Extraction.js             # View Sentinel 2 EVI time series for polygons    
+├── Google_colab_scripts/
     ├── s2_imagery_upload.ipynb                   # Download S2 EVI stack
     ├── clean_labelled_data.ipynb                 # Cluster cleaning script
     ├── smooth_inference_imagery.ipynb            # Svatisky Golay Filter for smoothing 
