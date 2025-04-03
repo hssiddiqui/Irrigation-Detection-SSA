@@ -7,6 +7,8 @@ The repository contains scripts and files for small holder irrigation detection 
 ```
 Irrigation-Detection/
 ├── data-collection-polygons/                     # Folder for input files
+│   └── ...... 
+├── trained-models/                               # Trained transformer models
 │   └── ......                   
 ├── GEE_scripts/                                  
 │   └── Interactive_EVI_Extraction.js             # View Sentinel 2 EVI time series for polygons    
