@@ -24,16 +24,24 @@ Irrigation-Detection/
 ## How to implement the methodology
 
 1. **Collect labeled data for training:**
-   Use GEE_scripts/Interactive_EVI_Extraction to draw polygons, examine high resolution Google Earth imagery, false color composite of dry season imagery and S2 time series
+     ```
+     GEE_scripts/[Interactive_EVI_Extraction.js](https://code.earthengine.google.com/d3ed4fa2bcebafc63eca0e6db15d1db0)
+     ```
+   - Draw polygons by looking at high resolution Google Earth imagery and false color composites of dry season S2 imagery 
+   - Examine S2 EVI time series
+   - Save 
 
 2. **Create Sentinel 2 EVI stack:**
-   - s2_imagery_upload.ipynb
+    ```
+    Google_colab_scripts/s2_imagery_upload.ipynb
+    ```
 
 3. **Clean labelled Data:**
-   - clean_labelled_data.ipynb
+   ```
+   Google_colab_scripts/clean_labelled_data.ipynb
+   ```
 
 4. **Irrigation Detection:**
-   - Execute the main script:
-     ```bash
+    ```
      Google_colab_scripts/irrigation_detection_inference.ipynb
      ```
