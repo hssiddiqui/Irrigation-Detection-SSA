@@ -25,8 +25,9 @@ Irrigation-Detection/
 
 1. **Collect labeled data for training:**
      ```
-     GEE_scripts/[Interactive_EVI_Extraction.js](https://code.earthengine.google.com/d3ed4fa2bcebafc63eca0e6db15d1db0)
+     GEE_scripts/Interactive_EVI_Extraction.js
      ```
+   - [Open script in Google Earth Engine](https://code.earthengine.google.com/d3ed4fa2bcebafc63eca0e6db15d1db0)
    - Draw polygons by looking at high resolution Google Earth imagery and false color composites of dry season S2 imagery 
    - Examine S2 EVI time series
    - Save 
