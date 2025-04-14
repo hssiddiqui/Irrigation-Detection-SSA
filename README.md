@@ -22,6 +22,8 @@ Irrigation-Detection/
 ```
 
 ## How to implement the methodology
+> [!NOTE]
+> Users can skip steps 1-4 and use the trained models to detect dry season irrigation in Nigeria or Burkina Faso
 
 1. **Collect labeled data for training:**
      ```
@@ -37,12 +39,21 @@ Irrigation-Detection/
     Google_colab_scripts/s2_imagery_upload.ipynb
     ```
 
-3. **Clean labelled Data:**
+3. **Clean labelled data:**
    ```
    Google_colab_scripts/clean_labelled_data.ipynb
    ```
 
-4. **Irrigation Detection:**
+4. **Train models:**
+    - [Detecting Irrigation in the Ethiopian Highlands](https://github.com/SEL-Columbia/ethiopia_irrigation_detection)
+
+5. **Download and smooth inference imagery:**
+    ```
+     Google_colab_scripts/s2_imagery_upload.ipynb
+     Google_colab_scripts/smooth_inference_imagery.ipynb
+     ```
+
+6. **Irrigation Detection:**
     ```
      Google_colab_scripts/irrigation_detection_inference.ipynb
      ```
